@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  background-color: #ffc2e9;
+}
+#nav_principal {
+  background-color: #ff0084;
+  border-width: thin;
+  border-style: solid;
+  border-color: #000;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+  contain: content;
+  padding: 1em;
+}
+#nav_principal li {
+  background-color: #ff0084;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 80px 1em 80px;
+}
+
+#nav_principal li a {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  color: beige;
+  text-decoration: none;
+  padding: 1em 80px 1em 100px;
+  background-color: #ff0084;
+}
+#nav_principal li a:hover {
+  background-color: #111111;
+}
+ 
+main{
+    border:solid #000;
+    contain: content;
+}
+ h1{
+    font-family: 'Dancing Script', cursive ;
+    font-size: 60px;
+    text-align: center;
+    color: #3a3337;
+    text-shadow: 3px 3px 3px #ffffff;
+ }
+ h2{
+    font-family: 'Dancing Script', cursive ;
+    font-size: 40px;
+    text-align: center;
+    color: #3a3337;
+    text-shadow: 3px 3px 3px #ffffff;
+ }
+
+ img{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background:#FFC2E9;
+    border: #ff0084;
+    width:300px;
+    height:300px; 
+    background-position: center;
+    padding: 1em 42%;
+ }
+.campos{
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    padding: 1em 1%;
+}
+#name{
+    width: 300px ;
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: #3a3337;
+    color:#ffffff;
+}
+#lastname{
+    width: 300px ;
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: #3a3337;
+    color:#ffffff;
+}
+#username{
+    width: 300px ;
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: #3a3337;
+    color:#ffffff;
+}
+#correo{
+    width: 300px ;
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: #3a3337;
+    color:#ffffff;
+}
+#contra{
+    width: 300px ;
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: #3a3337;
+    color:#ffffff;
+}
+#direc{
+    width: 300px ;
+    height: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: #3a3337;
+    color:#ffffff;
+}
+h5{
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;  
+  text-align: center;
+
+}
+.pago{
+  border:solid chocolate ;
+  contain: content;
+  padding: 2em 5%;
+}
+
+#pagos{
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;  
+  contain: content;
+  padding-left: 20rem;
+}
+#tarjeta{
+  width: 30px ;
+  height: 30px;
+  background-color: #3a3337;
+  color:#ffffff;
+}
+#mercado{
+  width: 30px ;
+  height: 30px;
+  background-color: #3a3337;
+  color:#ffffff;
+}
+#efectivo{
+  width: 30px ;
+  height: 30px;
+  background-color: #3a3337;
+  color:#ffffff;
+}
+.text_are{
+  border: solid;
+  background-color: rgb(255, 130, 180);
+  contain: content;
+  text-align: justify;
+}
+#area{
+  width: auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px; 
+}
+.botones{
+  contain: content;
+  list-style-type: block;
+  padding: 1em 2%;
+}
+#send{
+  width: 100px ;
+  height: 50px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;  
+  background-color: #3a3337;
+  color:#ffffff;
+}
+#clean{
+  width: 100px ;
+  height: 50px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;  
+  background-color: #3a3337;
+  color:#ffffff;
+}
+
+footer{
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(253, 253, 253);
+  background-color: #ff0084;
+  font-size: 30px;
+  text-align: center;
+  contain: content;
+}

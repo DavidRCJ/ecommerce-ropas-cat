@@ -1,0 +1,128 @@
+* {
+  /*Margenes para todos los navegadores y etiquetas*/
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  background-color: #ffc2e9;
+}
+#nav_principal {
+  background-color: #ff0084;
+  border-width: thin;
+  border-style: solid;
+  border-color: #000;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+  contain: content;
+  padding: 1em;
+}
+#nav_principal li {
+  background-color: #ff0084;
+  display: inline-block;
+
+  padding: 1em 80px 1em 80px;
+}
+
+#nav_principal li a {
+  font-size: 40px;
+  font-style: italic;
+  color: beige;
+  text-decoration: none;
+  padding: 1em 80px 1em 100px;
+  background-color: #ff0084;
+}
+#nav_principal li a:hover {
+  background-color: #111111;
+}
+
+main {
+  border: solid #000;
+  contain: content;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+}
+img {
+  list-style-type: none;
+  display: flex;
+  /*justify-content: center;*/
+  background: #ffc2e9;
+  border: #ff0084;
+  width: 400px;
+  height: 400px;
+  padding: 1em 800px 1em;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+  padding: 1em 300px;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #3a3337;
+  padding: 1em 300px;
+}
+
+.text_are {
+  border: solid;
+  background-color: rgb(255, 130, 180);
+  contain: content;
+  text-align: justify;
+}
+#area {
+  width: auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+.botones {
+  contain: content;
+  list-style-type: block;
+}
+#send {
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #3a3337;
+  color: #ffffff;
+}
+#clean {
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #3a3337;
+  color: #ffffff;
+}
+
+#lista_selec {
+  padding: 10px;
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #3a3337;
+  color: #ffffff;
+}
+footer {
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(253, 253, 253);
+  background-color: #ff0084;
+  font-size: 20px;
+  text-align: center;
+  contain: content;
+}

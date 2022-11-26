@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  background-color: #ffc2e9;
+}
+#nav_principal {
+  background-color: #ff0084;
+  border-width: thin;
+  border-style: solid;
+  border-color: #000;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+  contain: content;
+  padding: 1em;
+}
+#nav_principal li {
+  background-color: #ff0084;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 80px 1em 80px;
+}
+
+#nav_principal li a {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  color: beige;
+  text-decoration: none;
+  padding: 1em 80px 1em 100px;
+  background-color: #ff0084;
+}
+#nav_principal li a:hover {
+  background-color: #111111;
+}
+
+#aside_left {
+  background-color: #ff79aa;
+  float: left;
+  height: auto;
+  width: 120px;
+  padding: 0%;
+}
+#aside_letf p {
+  font-size: 20px;
+  background-color: #ff0084;
+  margin: 0;
+  padding: 0;
+}
+#aside_left img {
+  width: 120px;
+  height: 120px;
+  background-color: #ff0084;
+  margin: 0;
+  padding: 0;
+}
+main {
+  contain: content;
+}
+.titulo_principal {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+  padding: 1em 300px;
+}
+.titulo_principal img {
+  width: 400px;
+  height: 400px;
+  background-position: center;
+}
+
+.titulo_product {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 1em;
+}
+
+.image {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background: #ffc2e9;
+  border: #ff0084;
+}
+
+.image img {
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  padding: 1em 4%;
+}
+
+#product {
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+}
+#product li {
+  float: left;
+}
+#product li a {
+  display: block;
+  font-family: "Righteous", cursive;
+  color: rgb(255, 0, 136);
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #ffffff;
+  padding: 1em 14rem;
+   text-decoration-line: inherit;
+}
+#product li a:hover {
+  background-color: #111111;
+}
+
+.titulo_vyt {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 1em;
+}
+
+.video_yt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#aside_right {
+  background-color: #ff79aa;
+  float: right;
+  border: #ddc3d0;
+  height: auto;
+  width: 180px;
+}
+#aside_right img {
+  width: 180px;
+  height: 80px;
+}
+footer {
+  border-width: thin;
+  border-style: solid;
+  border-color: rgb(253, 253, 253);
+  background-color: #ff0084;
+  font-size: 30px;
+  text-align: center;
+  contain: content;
+}
