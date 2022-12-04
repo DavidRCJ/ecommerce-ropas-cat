@@ -1,50 +1,65 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Righteous", cursive;
-  background-color: #ffc2e9;
-}
-#nav_principal {
+  font-family: "Dancing Script", cursive;
+  }
+.div_cont ul{
   background-color: #ff0084;
-  border-width: thin;
-  border-style: solid;
-  border-color: #000;
-  list-style-type: none;
+  border: solid;
+  display:flex;
+  align-items:flex-end;
+  justify-content: space-evenly;
+}
+.div_cont li{
+  border: solid black;
+  color: #ff0084;
+  background-color: #ff0084;
   display: flex;
-  overflow: hidden;
-  contain: content;
-  padding: 1em;
+  flex-grow: 1;
+  float: left;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  width: 10em;
 }
-#nav_principal li {
-  background-color: #ff0084;
-  display: inline-block;
-  text-align: center;
-  padding: 1em 80px 1em 80px;
+.div_cont li a{
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  text-decoration:none;
+  text-align:center;
+  color: #ffffff;
+  background-color:#ff0084;
 }
 
-#nav_principal li a {
-  font-size: 40px;
-  font-style: italic;
-  text-align: center;
-  color: beige;
-  text-decoration: none;
-  padding: 1em 80px 1em 100px;
-  background-color: #ff0084;
+.div_cont #car{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: center;
 }
-#nav_principal li a:hover {
+.div_cont #busca{
+  width: auto ;
+  height: 40px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;  
+  background-color: #3a3337;
+  color:#ffffff;  
+}
+.div_cont li a:hover {
   background-color: #111111;
 }
- 
-
+main{  
+  background-color: #ffc2e9;
+}
 h1 {
   font-size: 50px;
-  font-style: italic;
+  font-family:cursive;
   text-align: center;
   text-shadow: 5px 5px 5px rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 1em 80px 1em 100px;
-  background-color: #ff62b3;
 }
 h3 {
   font-size: 40px;
@@ -53,19 +68,54 @@ h3 {
   text-shadow: 2px 2px 2px #353535;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 0%;
-  background-color: #961f92;
+  background-color: #ff0051;
 }
-img {
+
+.titulo_principal {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+  padding: 1em 300px;
+}
+.titulo_principal #presente {
+  width: 400px;
+  height: 400px;
+  border-radius:10%;
+  position: relative;
+}
+.item1{
+  grid-area: item1;
+}
+.item2{
+  grid-area: item2;
+}.item3{
+  grid-area: item3;
+}.item4{
+  grid-area: item4;
+}.item5{
+  grid-area: item5;
+}
+.grid_contener{
+  margin: 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+  "item1 item2 item3 item4 item5"  ;
+}
+.grid_contener img{
+  margin:10px;
   width: 300px;
   height: 300px;
-  padding: 1em 43%;
+  align-items: flex-end;
 }
 footer {
   border-width: thin;
   border-style: solid;
   border-color: rgb(253, 253, 253);
-  background-color: #ff0084;
+  background-color: #ff85c4;
   font-size: 30px;
   text-align: center;
   contain: content;

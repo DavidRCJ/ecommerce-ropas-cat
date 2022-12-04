@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div id="nav_principal">
+        <div class="div_cont">
             <nav>
                 <ul>
                     <li>
@@ -29,6 +29,12 @@
                     <li>
                         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
                     </li>
+                    <li>
+                        <input type="text" name="" id="busca" placeholder="Buscar">
+                    </li>
+                    <li>
+                        <img src="./Imagenes/carro.png" alt="carrito">
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -36,20 +42,47 @@
 
     <main>
         <section>
-            <div>
+            <div class="titulo_principal">
                 <h1>About us</h1>
-                <img src="./Imagenes/logo.png" width="150" height="150" alt="Logo" />
+                <img src="./Imagenes/logo.png" id="logo" alt="Logo" />
             </div>
         </section>
         <section>
             <div>
-                <h2>Quienes somos</h2>
+                <h2>¿Quienes somos?</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero odio
-                    a consectetur minima, quo placeat quas sunt, necessitatibus nesciunt
-                    illo quam porro ad commodi consequuntur, nulla sit similique ipsam
-                    eveniet!
+                    Fashion Cat, es una empresa de venta de prodtuctos de ropa para los concentidos de la casa,
+                    en esta pagian encontraras diferentes tipos de atuendo para tu minino, desde 
+                    camisas, playeras hasta trajes completos.
                 </p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Consejos para el cuidado de tu mascota</h2>
+                <h3>  1.- Jugar con tu gato te permite: </h3>
+                <div>
+                    <p class="punto">
+                        Mantiene al felino activo, previniendo el sobrepeso y la obesidad.
+                    </p>
+                    <p class="punto">
+                        Le permite desarrollar su instinto depredador.
+                    </p>
+                    <p class="punto">
+                        Ayuda a establecer un fuerte lazo entre el gato y el cuidador.                    
+                    </p>
+               </div>    
+               <h3>  2.-La alimentación, la clave para una buena salud </h3>
+               <div>
+                   <p class="punto">
+                    Los gatos, a diferencia de los perros, son carnívoros estrictos,
+                    por lo que requieren una elevada cantidad de proteínas en su dieta.
+                    Estas deben estar presentes al menos en un 25% del total del alimento,
+                    siendo ideal en torno al 40%. Otros nutrientes que debe contener el
+                    alimento son los hidratos de carbono, las grasas, las vitaminas y los 
+                    minerales.
+                   </p>
+                </div>    
             </div>
         </section>
 
@@ -64,8 +97,8 @@
             </div>
         </section>
         <section>
-            <div>
-                <h2>Seleccioan la raza de tu minino</h2>
+            <h2>Seleccioan la raza de tu minino</h2>
+            <div class="selec">
                 <label for="Seleciona la raza de tu minino"></label>
                 <select name="Seleciona la raza de tu minino" id="lista_selec">
                     <option value="Angora">Angora</option>

@@ -10,11 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css_venta.css" />
+    <audio autoplay>
+        <source src="./audio/audio2.mp3" type="audio/mp3">
+        Tu navegador no es compatible con el audio HTML5
+    </audio>
 </head>
 
 <body>
     <header>
-        <div id="nav_principal">
+        <div class="div_cont">
             <nav>
                 <ul>
                     <li>
@@ -29,31 +33,38 @@
                     <li>
                         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
                     </li>
+                    <li>
+                        <input type="text" name="" id="busca" placeholder="Buscar">
+                    </li>
+                    <li>
+                        <img src="./Imagenes/carro.png" id="car"alt="carrito">
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <h1>Ropa</h1>
-        <audio autoplay>
-            <source src="./audio/audio2.mp3" type="audio/mp3">
-            Tu navegador no es compatible con el audio HTML5
-        </audio>
-        <img src="./Imagenes/ropa.png" alt="Logo">
         <section>
-            <div>
+            <div class="titulo_principal">
+                <h1>Ropa</h1>
+                <img src="./Imagenes/ropa.png" id="presente" alt="Logo">
+            </div>
+        </section>
+
+        <section class="grid_contener">
+            <div item="item1">
                 <h3>Camisas</h3>
                 <img src="./Imagenes/ropa/camisa.png" alt="Camisa">
-            </div>
-            <div>
+            </div>  
+            <div item="item2">
                 <h3>Playeras</h3>
                 <img src="./Imagenes/ropa/playera.png" alt="Playera">
-            </div>
-            <div>
+            </div item="item3">
+            <div item="item4">
                 <h3>Abrigos</h3>
                 <img src="./Imagenes/ropa/abrigo.png" alt="Abrigo">
             </div>
-            <div>
+            <div item="item5">
                 <h3>Mascadas</h3>
                 <img src="./Imagenes/ropa/panoleta.png" alt="Mascada">
             </div>

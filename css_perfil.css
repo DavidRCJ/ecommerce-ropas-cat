@@ -4,200 +4,194 @@
   font-family: "Dancing Script", cursive;
   background-color: #ffc2e9;
 }
-#nav_principal {
+
+.div_cont ul {
   background-color: #ff0084;
-  border-width: thin;
-  border-style: solid;
-  border-color: #000;
-  list-style-type: none;
+  border: solid;
   display: flex;
-  overflow: hidden;
-  contain: content;
-  padding: 1em;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
-#nav_principal li {
+.div_cont li {
+  border: solid black;
+  color: #ff0084;
   background-color: #ff0084;
-  display: inline-block;
-  text-align: center;
-  padding: 1em 80px 1em 80px;
+  display: flex;
+  flex-grow: 1;
+  float: left;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  width: 10em;
 }
-
-#nav_principal li a {
-  font-size: 40px;
-  font-style: italic;
-  text-align: center;
-  color: beige;
+.div_cont li a {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
   text-decoration: none;
-  padding: 1em 80px 1em 100px;
+  text-align: center;
+  color: #ffffff;
   background-color: #ff0084;
 }
-#nav_principal li a:hover {
-  background-color: #111111;
+.div_cont #impe {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: center;
 }
- 
-main{
-    border:solid #000;
-    contain: content;
-}
- h1{
-    font-family: 'Dancing Script', cursive ;
-    font-size: 60px;
-    text-align: center;
-    color: #3a3337;
-    text-shadow: 3px 3px 3px #ffffff;
- }
- h2{
-    font-family: 'Dancing Script', cursive ;
-    font-size: 40px;
-    text-align: center;
-    color: #3a3337;
-    text-shadow: 3px 3px 3px #ffffff;
- }
-
- img{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background:#FFC2E9;
-    border: #ff0084;
-    width:300px;
-    height:300px; 
-    background-position: center;
-    padding: 1em 42%;
- }
-.campos{
-    font-size: 40px;
-    font-family: "Dancing Script", cursive;
-    padding: 1em 1%;
-}
-#name{
-    width: 300px ;
-    height: 50px;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;  
-    background-color: #3a3337;
-    color:#ffffff;
-}
-#lastname{
-    width: 300px ;
-    height: 50px;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;  
-    background-color: #3a3337;
-    color:#ffffff;
-}
-#username{
-    width: 300px ;
-    height: 50px;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;  
-    background-color: #3a3337;
-    color:#ffffff;
-}
-#correo{
-    width: 300px ;
-    height: 50px;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;  
-    background-color: #3a3337;
-    color:#ffffff;
-}
-#contra{
-    width: 300px ;
-    height: 50px;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;  
-    background-color: #3a3337;
-    color:#ffffff;
-}
-#direc{
-    width: 300px ;
-    height: 50px;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;  
-    background-color: #3a3337;
-    color:#ffffff;
-}
-h5{
+.div_cont #busca {
+  width: auto;
+  height: 40px;
   font-size: 20px;
   font-style: italic;
-  font-family: 'Times New Roman', Times, serif;  
+  font-family: "Times New Roman", Times, serif;
+  background-color: #3a3337;
+  color: #ffffff;
+}
+.div_cont li a:hover {
+  background-color: #111111;
+}
+
+main {
+  border: solid #000;
+  contain: content;
+}
+
+.titulo_principal {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
   text-align: center;
-
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+  padding: 1em 300px;
 }
-.pago{
-  border:solid chocolate ;
-  contain: content;
-  padding: 2em 5%;
+.titulo_principal #logo {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-position: center;
 }
 
-#pagos{
-  font-size: 30px;
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  margin: 2%;
+  text-align: center;
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+}
+h2 {
+  margin: 5%;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #3a3337;
+  text-shadow: 3px 3px 3px #ffffff;
+}
+
+.campos {
+  margin: 5rem;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: end;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  padding: 2em 1%;
+}
+#name,#lastname,#username,#correo,#contra,#direc {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
   font-style: italic;
-  font-family: 'Times New Roman', Times, serif;  
-  contain: content;
-  padding-left: 20rem;
-}
-#tarjeta{
-  width: 30px ;
-  height: 30px;
+  font-family: "Times New Roman", Times, serif;
   background-color: #3a3337;
-  color:#ffffff;
+  color: #ffffff;
+  padding: 1rem;
 }
-#mercado{
-  width: 30px ;
+.campos #correo :invalid{
+  background-color: red;
+  border: none;
+}
+.campos #correo :valid {
+  background-color: rgb(0, 255, 26);
+  border: none;
+}
+
+.campos #name:focus {
+  border: 10px solid rgb(255, 107, 186) ;
+}
+.campos #lastname:focus {
+  border: 10px solid rgb(255, 107, 186) ;
+}
+.campos #username:focus {
+  border: 10px solid rgb(255, 107, 186);
+}
+.campos #correo:focus {
+  border: 10px solid rgb(255, 107, 186) ;
+}
+.campos #contra:focus {
+  border: 10px solid rgb(255, 107, 186) ;
+}
+.campos #direc:focus {
+  border: 10px solid rgb(255, 107, 186);
+}
+
+h5 {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.pago {
+  border: solid #000;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.pagos {
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5em;
+}
+#tarjeta,#mercado,#efectivo {
+  display: flex;
+  width: 30px;
   height: 30px;
-  background-color: #3a3337;
-  color:#ffffff;
+  background-color: #ff0090;
+  color: #000000;
 }
-#efectivo{
-  width: 30px ;
-  height: 30px;
-  background-color: #3a3337;
-  color:#ffffff;
-}
-.text_are{
+
+.text_are {
+  margin: 1%;
   border: solid;
   background-color: rgb(255, 130, 180);
   contain: content;
   text-align: justify;
 }
-#area{
+#area {
   width: auto;
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px; 
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
-.botones{
+.botones {
   contain: content;
   list-style-type: block;
   padding: 1em 2%;
 }
-#send{
-  width: 100px ;
+#send, #clean {
+  width: 100px;
   height: 50px;
   font-size: 30px;
   font-style: italic;
-  font-family: 'Times New Roman', Times, serif;  
+  font-family: "Times New Roman", Times, serif;
   background-color: #3a3337;
-  color:#ffffff;
+  color: #ffffff;
 }
-#clean{
-  width: 100px ;
-  height: 50px;
-  font-size: 30px;
-  font-style: italic;
-  font-family: 'Times New Roman', Times, serif;  
-  background-color: #3a3337;
-  color:#ffffff;
-}
-
-footer{
+footer {
   border-width: thin;
   border-style: solid;
   border-color: rgb(253, 253, 253);

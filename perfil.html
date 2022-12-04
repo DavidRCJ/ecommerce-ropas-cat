@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div id="nav_principal">
+        <div class="div_cont">
             <nav>
                 <ul>
                     <li>
@@ -29,15 +29,21 @@
                     <li>
                         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
                     </li>
+                    <li>
+                        <input type="text" name="" id="busca" placeholder="Buscar">
+                    </li>
+                    <li>
+                        <img src="./Imagenes/carro.png" alt="carrito" id="impe">
+                    </li>
                 </ul>
             </nav>
-        </div>
+        </div>  
     </header>
     <main>
         <section>
-            <div>
+            <div class="titulo_principal">  
                 <h1>Login</h1>
-                <img src="./Imagenes/logo.png" width="120" height="120" aling="center" alt="Logo">
+                <img src="./Imagenes/logo.png" id="logo" alt="Logo">
             </div>
         </section>
         <section>
@@ -53,8 +59,8 @@
                             <input type="text" name="" placeholder="Nombre de usuario" id="username" required>
                         </section>
                         <section>
-                            <label for="">email</label>
-                            <input type="email" name="" id="correo" placeholder="Agrega Email">
+                            <label for="">E-mail</label>
+                            <input type="E-mail" name="" id="correo" placeholder="Agrega Email">
                             <label for="">Contraseña</label>
                             <input type="password" name="" placeholder="Ingresa Contraseña" id="contra">
                         </section>
@@ -63,15 +69,16 @@
                             <input type="text" name="" placeholder="Direccion" id="direc" required>
                         </section>
                     </div>
-
-                    <div class="pago">
+                    <div>
                         <h2>Agregar metodo de pago</h2>
                         <h5>Se hara el cargo directo al metodo seleccionadao una ves que adquires un producto</h5>
-                        <label for="" id="pagos">Tarjeta</label>
-                        <input type="checkbox" name="" id="tarjeta">
-                        <label for="" id="pagos">Mercado Pago</label>
+                    </div>
+                    <div class="pago">
+                        <label for="" class="pagos">Tarjeta</label>
+                        <input type="checkbox" name="" id="tarjeta">            
+                        <label for="" class="pagos">Mercado Pago</label>
                         <input type="checkbox" name="" id="mercado">
-                        <label for="" id="pagos">Deposito en efectivo</label>
+                        <label for="" class="pagos">Deposito en efectivo</label>
                         <input type="checkbox" name="" id="efectivo">
                     </div>
                 </form>
